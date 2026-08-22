@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # RoyceCode Installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
-#    or: wget -qO- https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
+#    or: wget -qO- https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 
 set -euo pipefail
 
 VERSION="${ROYCECODE_VERSION:-0.1.0}"
-REPO="vojtechhradsky/roycecode"
+REPO="vojtechroyce/roycecode"
 BIN_NAME="roycecode"
 
 if [ -z "${NO_COLOR:-}" ] && [ -t 1 ]; then

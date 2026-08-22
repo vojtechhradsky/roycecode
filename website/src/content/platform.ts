@@ -74,7 +74,7 @@ export const platformFeatures: PlatformFeature[] = [
       'No hosted-only black box',
     ],
     ['cli-tools', 'architecture-analysis', 'report-generator'],
-    `cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode`,
+    `cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode`,
   ),
   feature(
     'plugin-system',

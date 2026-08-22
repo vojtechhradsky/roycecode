@@ -10,7 +10,7 @@ Prerequisites:
 Get started:
 
 ```bash
-git clone https://github.com/vojtechhradsky/roycecode.git
+git clone https://github.com/vojtechroyce/roycecode.git
 cd roycecode
 cargo build
 ```

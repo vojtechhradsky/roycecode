@@ -1057,7 +1057,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install RoyceCode
-        run: cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+        run: cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 
       - name: Run Analysis
         run: roycecode analyze .
@@ -1088,7 +1088,7 @@ jobs:
   stage: test
   image: rust:1.77-slim
   script:
-    - cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+    - cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
     - roycecode analyze .
     - python3 -c "
       import json;
@@ -1160,7 +1160,7 @@ jobs:
       'Baseline comparison approach',
     ],
     codeExample: `# Quick CI integration (any platform)
-cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 roycecode analyze .
 
 # Check for critical issues

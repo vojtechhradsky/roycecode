@@ -16,7 +16,7 @@
     "subtitle": "Statická analýza poháněná AI, která hlídá celý váš kód — mrtvý kód, cyklické závislosti a architektonické problémy.",
     "cta1": "Zacít",
     "cta2": "Zobrazit na GitHubu",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "Analyzuje kód napsaný v"

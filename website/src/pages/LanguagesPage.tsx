@@ -309,7 +309,7 @@ export default function LanguagesPage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://github.com/vojtechhradsky/roycecode"
+                href="https://github.com/vojtechroyce/roycecode"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold text-sm hover:scale-105 active:scale-[0.98] transition-transform shadow-xl"
@@ -319,7 +319,7 @@ export default function LanguagesPage() {
               </a>
               <div className="inline-flex items-center gap-3 bg-zinc-800/80 text-zinc-300 rounded-xl px-5 py-3 font-mono text-sm border border-zinc-700/50">
                 <span className="text-zinc-500 select-none">$</span>
-                <span className="select-all">cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</span>
+                <span className="select-all">cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</span>
               </div>
             </div>
           </motion.div>

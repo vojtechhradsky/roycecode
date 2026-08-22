@@ -16,7 +16,7 @@
     "subtitle": "AI-powered static analysis that watches your entire codebase for dead code, circular dependencies, and architectural issues.",
     "cta1": "Get Started",
     "cta2": "View on GitHub",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "Analyzes codebases written in"

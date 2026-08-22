@@ -800,7 +800,7 @@ function CareersSection() {
           )}
         </p>
         <a
-          href="https://github.com/vojtechhradsky/roycecode"
+          href="https://github.com/vojtechroyce/roycecode"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-zinc-900 dark:bg-white text-white dark:text-black text-sm font-semibold hover:scale-105 active:scale-[0.98] transition-transform"
@@ -1126,7 +1126,7 @@ function ContactSection() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/vojtechhradsky/roycecode"
+          href="https://github.com/vojtechroyce/roycecode"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-xl border border-zinc-200/50 dark:border-white/5 bg-white/50 dark:bg-white/[0.02] backdrop-blur-xl p-5 text-center hover:border-indigo-500/20 dark:hover:border-indigo-500/20 transition-colors block"
@@ -1137,7 +1137,7 @@ function ContactSection() {
           <h3 className="font-display font-semibold text-zinc-900 dark:text-white text-sm mb-1">
             GitHub
           </h3>
-          <p className="text-sm text-zinc-500">vojtechhradsky/roycecode</p>
+          <p className="text-sm text-zinc-500">vojtechroyce/roycecode</p>
         </a>
 
         {/* X / Twitter */}
@@ -1214,7 +1214,7 @@ function CtaSection() {
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://github.com/vojtechhradsky/roycecode"
+            href="https://github.com/vojtechroyce/roycecode"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-black text-sm font-semibold hover:scale-105 active:scale-[0.98] transition-transform"
@@ -1224,7 +1224,7 @@ function CtaSection() {
           </a>
           <div className="inline-flex items-center gap-3 px-5 py-3 bg-zinc-800/80 rounded-xl font-mono text-sm text-zinc-300 border border-zinc-700/50">
             <span className="text-zinc-500 select-none">$</span>
-            <span className="select-all">cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</span>
+            <span className="select-all">cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</span>
           </div>
         </div>
       </div>

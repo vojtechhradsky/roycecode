@@ -1,6 +1,6 @@
 # RoyceCode
 
-[![CI](https://github.com/vojtechhradsky/roycecode/actions/workflows/ci.yml/badge.svg)](https://github.com/vojtechhradsky/roycecode/actions/workflows/ci.yml)
+[![CI](https://github.com/vojtechroyce/roycecode/actions/workflows/ci.yml/badge.svg)](https://github.com/vojtechroyce/roycecode/actions/workflows/ci.yml)
 [![Rust](https://img.shields.io/badge/rust-1.82%2B-orange)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -41,7 +41,7 @@ Think of it as a layered analyzer:
 ## Quick Start
 
 ```bash
-cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 cd your-project
 roycecode analyze .
 ```

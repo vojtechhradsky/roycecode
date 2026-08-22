@@ -67,14 +67,14 @@ export const integrations: Integration[] = [
 <h2 id="generic-ci-setup">Generic CI Setup</h2>
 <p>RoyceCode works with any CI system that can run the native Rust CLI. The integration pattern is the same everywhere:</p>
 <ol>
-<li><strong>Install</strong> — <code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code> in your CI environment.</li>
+<li><strong>Install</strong> — <code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code> in your CI environment.</li>
 <li><strong>Run</strong> — Execute <code>roycecode analyze .</code> from the repository root.</li>
 <li><strong>Check exit code</strong> — RoyceCode returns exit code 0 for a clean analysis and non-zero when findings exceed your configured thresholds.</li>
 <li><strong>Archive artifacts</strong> — The JSON report at <code>.roycecode/deterministic-analysis.json</code> can be uploaded as a build artifact for later inspection.</li>
 </ol>
 <p>Here is a minimal pipeline step that works in virtually any CI system:</p>
 <pre><code># Install and run RoyceCode
-cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 roycecode analyze .
 
 # The exit code signals pass/fail to your CI system
@@ -111,7 +111,7 @@ roycecode analyze .
 <p>Statická analýza je nejefektivnější, když běží automaticky při každém push. Integrací RoyceCode do CI/CD pipeline vytvoříte trvalou kvalitní bránu, která zachytí cyklické závislosti, mrtvý kód a hardwired hodnoty dříve, než se nahromadí.</p>
 
 <h2 id="generic-ci-setup">Obecné CI nastavení</h2>
-<p>RoyceCode funguje s jakýmkoli CI systémem, který umí spustit Rust CLI. Vzor integrace: nainstalujte (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), spusťte (<code>roycecode analyze .</code>), zkontrolujte návratový kód a archivujte artefakty (<code>.roycecode/deterministic-analysis.json</code>).</p>
+<p>RoyceCode funguje s jakýmkoli CI systémem, který umí spustit Rust CLI. Vzor integrace: nainstalujte (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), spusťte (<code>roycecode analyze .</code>), zkontrolujte návratový kód a archivujte artefakty (<code>.roycecode/deterministic-analysis.json</code>).</p>
 
 <h2 id="skip-ai-flag">Příznak --skip-ai</h2>
 <p>V CI prostředí často chcete deterministické, reprodukovatelné výsledky bez API volání. Příznak <code>--skip-ai</code> deaktivuje všechny AI backendy a spustí pouze deterministické detektory.</p>
@@ -126,7 +126,7 @@ roycecode analyze .
 <p>L'analyse statique est plus efficace quand elle s'execute automatiquement a chaque push. En integrant RoyceCode dans votre pipeline CI/CD, vous creez une porte qualite permanente qui detecte les dependances circulaires, le code mort et les valeurs codees en dur avant qu'ils ne s'accumulent.</p>
 
 <h2 id="generic-ci-setup">Configuration CI generique</h2>
-<p>RoyceCode fonctionne avec tout systeme CI capable d'executer le CLI Rust. Installez (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), executez (<code>roycecode analyze .</code>), verifiez le code de sortie et archivez les artefacts.</p>
+<p>RoyceCode fonctionne avec tout systeme CI capable d'executer le CLI Rust. Installez (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), executez (<code>roycecode analyze .</code>), verifiez le code de sortie et archivez les artefacts.</p>
 
 <h2 id="skip-ai-flag">Le drapeau --skip-ai</h2>
 <p>En CI, vous voulez souvent des resultats deterministes et reproductibles sans appels API. Le drapeau <code>--skip-ai</code> desactive tous les backends IA.</p>
@@ -141,7 +141,7 @@ roycecode analyze .
 <p>El analisis estatico es mas efectivo cuando se ejecuta automaticamente en cada push. Al integrar RoyceCode en su pipeline CI/CD, crea una puerta de calidad permanente que detecta dependencias circulares, codigo muerto y valores hardcoded antes de que se acumulen.</p>
 
 <h2 id="generic-ci-setup">Configuracion CI generica</h2>
-<p>RoyceCode funciona con cualquier sistema CI que pueda ejecutar el CLI Rust. Instale (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), ejecute (<code>roycecode analyze .</code>), verifique el codigo de salida y archive artefactos.</p>
+<p>RoyceCode funciona con cualquier sistema CI que pueda ejecutar el CLI Rust. Instale (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), ejecute (<code>roycecode analyze .</code>), verifique el codigo de salida y archive artefactos.</p>
 
 <h2 id="skip-ai-flag">La bandera --skip-ai</h2>
 <p>En CI, a menudo quiere resultados deterministicos y reproducibles sin llamadas API. La bandera <code>--skip-ai</code> desactiva todos los backends de IA.</p>
@@ -156,7 +156,7 @@ roycecode analyze .
 <p>静态分析在每次推送时自动运行时最为有效。将RoyceCode集成到CI/CD流水线中，可创建永久的质量门控，在循环依赖、死代码和硬编码值积累之前捕获它们。</p>
 
 <h2 id="generic-ci-setup">通用CI设置</h2>
-<p>RoyceCode可与任何能运行Rust CLI的CI系统配合。安装（<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>）、运行（<code>roycecode analyze .</code>）、检查退出码并归档产物。</p>
+<p>RoyceCode可与任何能运行Rust CLI的CI系统配合。安装（<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>）、运行（<code>roycecode analyze .</code>）、检查退出码并归档产物。</p>
 
 <h2 id="skip-ai-flag">--skip-ai标志</h2>
 <p>在CI环境中，通常需要无API调用的确定性、可重现结果。<code>--skip-ai</code>标志禁用所有AI后端。</p>
@@ -171,7 +171,7 @@ roycecode analyze .
 <p>स्टैटिक एनालिसिस सबसे प्रभावी तब होता है जब यह हर push पर स्वचालित रूप से चलता है। RoyceCode को CI/CD पाइपलाइन में इंटीग्रेट करके, आप एक स्थायी क्वालिटी गेट बनाते हैं।</p>
 
 <h2 id="generic-ci-setup">जेनेरिक CI सेटअप</h2>
-<p>RoyceCode किसी भी CI सिस्टम के साथ काम करता है जो Rust CLI चला सके। इंस्टॉल करें (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), चलाएं (<code>roycecode analyze .</code>), एग्ज़िट कोड चेक करें और आर्टिफैक्ट आर्काइव करें।</p>
+<p>RoyceCode किसी भी CI सिस्टम के साथ काम करता है जो Rust CLI चला सके। इंस्टॉल करें (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), चलाएं (<code>roycecode analyze .</code>), एग्ज़िट कोड चेक करें और आर्टिफैक्ट आर्काइव करें।</p>
 
 <h2 id="skip-ai-flag">--skip-ai फ्लैग</h2>
 <p>CI में, अक्सर API कॉल के बिना डिटर्मिनिस्टिक, रिप्रोड्यूसिबल रिजल्ट चाहिए। <code>--skip-ai</code> फ्लैग सभी AI बैकएंड को डिसेबल करता है।</p>
@@ -186,7 +186,7 @@ roycecode analyze .
 <p>A analise estatica e mais eficaz quando executada automaticamente em cada push. Ao integrar RoyceCode no pipeline CI/CD, voce cria um portao de qualidade permanente que detecta dependencias circulares, codigo morto e valores hardcoded antes que se acumulem.</p>
 
 <h2 id="generic-ci-setup">Configuracao CI generica</h2>
-<p>RoyceCode funciona com qualquer sistema CI que possa executar o CLI Rust. Instale (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), execute (<code>roycecode analyze .</code>), verifique o codigo de saida e arquive artefatos.</p>
+<p>RoyceCode funciona com qualquer sistema CI que possa executar o CLI Rust. Instale (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), execute (<code>roycecode analyze .</code>), verifique o codigo de saida e arquive artefatos.</p>
 
 <h2 id="skip-ai-flag">A flag --skip-ai</h2>
 <p>Em CI, frequentemente voce quer resultados deterministicos e reproduziveis sem chamadas de API. A flag <code>--skip-ai</code> desabilita todos os backends de IA.</p>
@@ -201,7 +201,7 @@ roycecode analyze .
 <p>التحليل الثابت أكثر فعالية عند تشغيله تلقائياً مع كل دفع. بدمج RoyceCode في خط أنابيب CI/CD تُنشئ بوابة جودة دائمة تكتشف التبعيات الدائرية والشيفرة الميتة والقيم الثابتة قبل تراكمها.</p>
 
 <h2 id="generic-ci-setup">إعداد CI عام</h2>
-<p>يعمل RoyceCode مع أي نظام CI يمكنه تشغيل واجهة Rust. ثبّت (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>) وشغّل (<code>roycecode analyze .</code>) وتحقق من كود الخروج وأرشف المخرجات.</p>
+<p>يعمل RoyceCode مع أي نظام CI يمكنه تشغيل واجهة Rust. ثبّت (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>) وشغّل (<code>roycecode analyze .</code>) وتحقق من كود الخروج وأرشف المخرجات.</p>
 
 <h2 id="skip-ai-flag">علامة --skip-ai</h2>
 <p>في CI غالباً تريد نتائج حتمية وقابلة للتكرار بدون استدعاءات API. علامة <code>--skip-ai</code> تعطّل جميع واجهات الذكاء الاصطناعي.</p>
@@ -215,7 +215,7 @@ roycecode analyze .
       pl: `<h2 id="why-ci-cd">Dlaczego uruchamiac RoyceCode w CI/CD?</h2>
 <p>Analiza statyczna jest najbardziej efektywna automatycznie przy kazdym pushu.</p>
 <h2 id="generic-ci-setup">Ogolna konfiguracja CI</h2>
-<p>Zainstaluj (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>), uruchom (<code>roycecode analyze .</code>), sprawdz kod wyjscia i zarchiwizuj artefakty.</p>
+<p>Zainstaluj (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>), uruchom (<code>roycecode analyze .</code>), sprawdz kod wyjscia i zarchiwizuj artefakty.</p>
 <h2 id="exit-codes">Kody wyjscia</h2>
 <ul>
 <li><strong>Exit 0</strong> — Analiza zakonczona, brak znalezisk powyzej progu.</li>
@@ -232,7 +232,7 @@ roycecode analyze .
       'Timestamped report archives',
     ],
     codeExample: `# Generic CI pipeline step
-cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 
 # Run deterministic analysis (no AI API calls)
 roycecode analyze .
@@ -311,7 +311,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install RoyceCode
-        run: cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+        run: cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 
       - name: Run analysis
         run: roycecode analyze .
@@ -491,7 +491,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+      - run: cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
       - run: roycecode analyze .
       - uses: actions/upload-artifact@v4
         with:
@@ -557,7 +557,7 @@ roycecode:
   stage: quality
   image: rust:1.77-slim
   script:
-    - cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+    - cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
     - roycecode analyze .
   artifacts:
     paths:
@@ -575,7 +575,7 @@ roycecode:
   stage: quality
   image: rust:1.77-slim
   script:
-    - cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+    - cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
     - roycecode analyze .
     - |
       python3 -c "
@@ -610,7 +610,7 @@ roycecode:
   variables:
     OPENAI_API_KEY: $OPENAI_API_KEY
   script:
-    - cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+    - cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
     - roycecode analyze .
   artifacts:
     paths:
@@ -741,7 +741,7 @@ roycecode:
   stage: quality
   image: rust:1.77-slim
   script:
-    - cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+    - cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
     - roycecode analyze .
   artifacts:
     paths:
@@ -1316,7 +1316,7 @@ roycecode analyze /path/to/project`,
 <h2 id="pre-commit-config">Configuration</h2>
 <p>Add RoyceCode to your <code>.pre-commit-config.yaml</code>:</p>
 <pre><code>repos:
-  - repo: https://github.com/vojtechhradsky/roycecode
+  - repo: https://github.com/vojtechroyce/roycecode
     rev: v0.1.0  # Use the latest release tag
     hooks:
       - id: roycecode
@@ -1492,7 +1492,7 @@ pre-commit install</code></pre>
     ],
     codeExample: `# .pre-commit-config.yaml
 repos:
-  - repo: https://github.com/vojtechhradsky/roycecode
+  - repo: https://github.com/vojtechroyce/roycecode
     rev: v0.1.0
     hooks:
       - id: roycecode
@@ -1578,7 +1578,7 @@ pre-commit install`,
 </ul>
 
 <h2 id="early-access">Early Access</h2>
-<p>The REST API is currently in development. In the meantime, use the CLI (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>) for local and CI analysis. The CLI output format is identical to what the API will return, so any integration you build today will work with the API when it launches.</p>`,
+<p>The REST API is currently in development. In the meantime, use the CLI (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>) for local and CI analysis. The CLI output format is identical to what the API will return, so any integration you build today will work with the API when it launches.</p>`,
       cs: `<h2 id="api-overview">Programový přístup k RoyceCode</h2>
 <p>REST API RoyceCode poskytne hostovanou analytickou službu, kterou můžete integrovat do jakéhokoliv workflow. Místo lokální instalace odešlete URL repozitáře a obdržíte strukturovaný JSON report přes jednoduché HTTP rozhraní.</p>
 
@@ -1595,7 +1595,7 @@ pre-commit install`,
 <p>API bude používat autentizaci pomocí API klíčů přes hlavičku <code>Authorization</code> s oprávněními na úrovni organizace.</p>
 
 <h2 id="early-access">Předběžný přístup</h2>
-<p>REST API je ve vývoji. Mezitím použijte CLI (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>). Formát výstupu CLI je identický s tím, co vrátí API.</p>`,
+<p>REST API je ve vývoji. Mezitím použijte CLI (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>). Formát výstupu CLI je identický s tím, co vrátí API.</p>`,
       fr: `<h2 id="api-overview">Acces programmatique a RoyceCode</h2>
 <p>L'API REST RoyceCode fournira un service d'analyse heberge integrable dans n'importe quel workflow. Au lieu d'installer localement, soumettez une URL de depot et recevez un rapport JSON structure via une interface HTTP simple.</p>
 
@@ -1612,7 +1612,7 @@ pre-commit install`,
 <p>L'API utilisera l'authentification par cle API via l'en-tete <code>Authorization</code> avec des permissions au niveau de l'organisation.</p>
 
 <h2 id="early-access">Acces anticipe</h2>
-<p>L'API REST est en developpement. En attendant, utilisez le CLI (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>). Le format de sortie du CLI est identique a celui de l'API.</p>`,
+<p>L'API REST est en developpement. En attendant, utilisez le CLI (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>). Le format de sortie du CLI est identique a celui de l'API.</p>`,
       es: `<h2 id="api-overview">Acceso programatico a RoyceCode</h2>
 <p>La API REST de RoyceCode proporcionara un servicio de analisis hospedado que puede integrar en cualquier workflow. En lugar de instalar localmente, envie una URL de repositorio y reciba un reporte JSON estructurado mediante una interfaz HTTP simple.</p>
 
@@ -1629,7 +1629,7 @@ pre-commit install`,
 <p>La API usara autenticacion por clave API via encabezado <code>Authorization</code> con permisos a nivel de organizacion.</p>
 
 <h2 id="early-access">Acceso anticipado</h2>
-<p>La API REST esta en desarrollo. Mientras tanto, use el CLI (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>). El formato de salida del CLI es identico al de la API.</p>`,
+<p>La API REST esta en desarrollo. Mientras tanto, use el CLI (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>). El formato de salida del CLI es identico al de la API.</p>`,
       zh: `<h2 id="api-overview">对 RoyceCode 的编程访问</h2>
 <p>RoyceCode REST API 将提供托管分析服务，可集成到任何工作流中。无需本地安装，提交仓库 URL 即可通过简单的 HTTP 接口接收结构化 JSON 报告。</p>
 
@@ -1646,7 +1646,7 @@ pre-commit install`,
 <p>API 将使用通过 <code>Authorization</code> 头传递的 API 密钥认证，支持组织级权限。</p>
 
 <h2 id="early-access">抢先体验</h2>
-<p>REST API 正在开发中。同时请使用 CLI（<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>）。CLI 输出格式与 API 返回格式相同。</p>`,
+<p>REST API 正在开发中。同时请使用 CLI（<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>）。CLI 输出格式与 API 返回格式相同。</p>`,
       hi: `<h2 id="api-overview">RoyceCode तक प्रोग्रामेटिक एक्सेस</h2>
 <p>RoyceCode REST API एक होस्टेड एनालिसिस सर्विस प्रदान करेगा जिसे आप किसी भी वर्कफ़्लो में इंटीग्रेट कर सकते हैं। लोकल इंस्टॉलेशन के बजाय, रिपॉज़िटरी URL सबमिट करें और सरल HTTP इंटरफ़ेस के माध्यम से स्ट्रक्चर्ड JSON रिपोर्ट प्राप्त करें।</p>
 
@@ -1663,7 +1663,7 @@ pre-commit install`,
 <p>API <code>Authorization</code> हेडर के माध्यम से API कुंजी ऑथेंटिकेशन का उपयोग करेगा, ऑर्गनाइज़ेशन-लेवल परमिशन के साथ।</p>
 
 <h2 id="early-access">अर्ली एक्सेस</h2>
-<p>REST API विकास में है। तब तक, CLI का उपयोग करें (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>)। CLI आउटपुट फ़ॉर्मेट API रिटर्न फ़ॉर्मेट के समान है।</p>`,
+<p>REST API विकास में है। तब तक, CLI का उपयोग करें (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>)। CLI आउटपुट फ़ॉर्मेट API रिटर्न फ़ॉर्मेट के समान है।</p>`,
       pt: `<h2 id="api-overview">Acesso programatico ao RoyceCode</h2>
 <p>A API REST do RoyceCode fornecera um servico de analise hospedado que voce pode integrar em qualquer workflow. Em vez de instalar localmente, envie uma URL de repositorio e receba um relatorio JSON estruturado atraves de uma interface HTTP simples.</p>
 
@@ -1680,7 +1680,7 @@ pre-commit install`,
 <p>A API usara autenticacao por chave API via cabecalho <code>Authorization</code> com permissoes a nivel de organizacao.</p>
 
 <h2 id="early-access">Acesso antecipado</h2>
-<p>A API REST esta em desenvolvimento. Enquanto isso, use o CLI (<code>cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode</code>). O formato de saida do CLI e identico ao que a API retornara.</p>`,
+<p>A API REST esta em desenvolvimento. Enquanto isso, use o CLI (<code>cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode</code>). O formato de saida do CLI e identico ao que a API retornara.</p>`,
       ar: `<h2 id="programmatic-access">الوصول البرمجي إلى RoyceCode</h2>
 <p>واجهة REST API تتيح الوصول البرمجي لتحليل RoyceCode. أرسل المستودعات للتحليل واسترجع التقارير وادمج مع لوحات المعلومات والأدوات المخصصة.</p>
 

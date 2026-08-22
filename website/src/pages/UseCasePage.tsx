@@ -247,7 +247,7 @@ export default function UseCasePage() {
                       One command to analyze your codebase.
                     </p>
                     <code className="block text-xs bg-zinc-900 dark:bg-zinc-950 text-zinc-300 px-3 py-2 rounded-lg font-mono">
-                      cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+                      cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
                     </code>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ export default function UseCasePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://github.com/vojtechhradsky/roycecode"
+              href="https://github.com/vojtechroyce/roycecode"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold text-sm hover:scale-105 active:scale-[0.98] transition-transform shadow-xl"

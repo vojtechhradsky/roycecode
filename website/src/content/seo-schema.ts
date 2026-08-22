@@ -38,7 +38,7 @@ export function organizationEntity() {
       height: '512',
     },
     sameAs: [
-      'https://github.com/vojtechhradsky/roycecode',
+      'https://github.com/vojtechroyce/roycecode',
       'https://x.com/roycecode',
       'https://pypi.org/project/roycecode/',
     ],

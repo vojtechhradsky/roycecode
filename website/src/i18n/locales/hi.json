@@ -99,7 +99,7 @@
     "subtitle": "AI-संचालित स्टैटिक एनालिसिस जो आपके पूरे कोडबेस पर नज़र रखता है — डेड कोड, चक्रीय निर्भरताएँ और आर्किटेक्चरल समस्याएँ।",
     "cta1": "शुरू करें",
     "cta2": "GitHub पर देखें",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "इन भाषाओं में लिखे कोडबेस का विश्लेषण करता है"

@@ -9,7 +9,7 @@ workflows.
 ## Quick Start
 
 ```bash
-cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode
+cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode
 roycecode analyze /path/to/project
 cat /path/to/project/.roycecode/deterministic-analysis.json
 ```
@@ -31,7 +31,7 @@ cat /path/to/project/.roycecode/deterministic-analysis.json
 
 ## Key Links
 
-- [README](https://github.com/vojtechhradsky/roycecode/blob/main/README.md)
-- [AI Agent Usage](https://github.com/vojtechhradsky/roycecode/blob/main/docs/AI_AGENT_USAGE.md)
-- [Architecture](https://github.com/vojtechhradsky/roycecode/blob/main/docs/ARCHITECTURE.md)
-- [Agent Instructions](https://github.com/vojtechhradsky/roycecode/blob/main/AGENTS.md)
+- [README](https://github.com/vojtechroyce/roycecode/blob/main/README.md)
+- [AI Agent Usage](https://github.com/vojtechroyce/roycecode/blob/main/docs/AI_AGENT_USAGE.md)
+- [Architecture](https://github.com/vojtechroyce/roycecode/blob/main/docs/ARCHITECTURE.md)
+- [Agent Instructions](https://github.com/vojtechroyce/roycecode/blob/main/AGENTS.md)

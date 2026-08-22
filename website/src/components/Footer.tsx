@@ -60,7 +60,7 @@ export default function Footer() {
               <li><Link to="/platform/policy-engine" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.productLinks.policy')}</Link></li>
               <li><Link to="/platform/report-generator" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.productLinks.reporting')}</Link></li>
               <li><Link to="/docs#installation" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.productLinks.pricing')}</Link></li>
-              <li><a href="https://github.com/vojtechhradsky/roycecode/releases" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.productLinks.whatsNew')}</a></li>
+              <li><a href="https://github.com/vojtechroyce/roycecode/releases" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.productLinks.whatsNew')}</a></li>
             </ul>
           </nav>
 
@@ -88,11 +88,11 @@ export default function Footer() {
               <li><Link to="/docs" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.docs')}</Link></li>
               <li><Link to="/docs#report-structure" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.api')}</Link></li>
               <li><Link to="/about#contact" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.help')}</Link></li>
-              <li><a href="https://github.com/vojtechhradsky/roycecode" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.community')}</a></li>
+              <li><a href="https://github.com/vojtechroyce/roycecode" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.community')}</a></li>
               <li><Link to="/platform" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.devHub')}</Link></li>
               <li><Link to="/integrations" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.integrations')}</Link></li>
-              <li><a href="https://github.com/vojtechhradsky/roycecode" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.status')}</a></li>
-              <li><a href="https://github.com/vojtechhradsky/roycecode/releases" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.changelog')}</a></li>
+              <li><a href="https://github.com/vojtechroyce/roycecode" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.status')}</a></li>
+              <li><a href="https://github.com/vojtechroyce/roycecode/releases" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.changelog')}</a></li>
               <li><Link to="/blog" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.webinars')}</Link></li>
               <li><Link to="/docs" className="hover:text-zinc-900 dark:hover:text-white transition-colors">{t('footer.resourceLinks.templates')}</Link></li>
             </ul>
@@ -104,7 +104,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-zinc-500">
               {(['terms', 'privacy', 'cookies', 'gdpr', 'soc2', 'iso', 'dpa', 'security', 'ai', 'accessibility'] as const).map((key) => {
                 const legalUrls: Record<string, string> = {
-                  security: 'https://github.com/vojtechhradsky/roycecode/blob/main/SECURITY.md',
+                  security: 'https://github.com/vojtechroyce/roycecode/blob/main/SECURITY.md',
                   terms: '/about#contact',
                   privacy: '/about#contact',
                   cookies: '/about#contact',
@@ -153,7 +153,7 @@ export default function Footer() {
             <a href="https://www.linkedin.com/company/roycecode" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors" aria-label="LinkedIn">
               <LinkedinLogo aria-hidden="true" className="w-5 h-5" />
             </a>
-            <a href="https://github.com/vojtechhradsky/roycecode" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors" aria-label="GitHub">
+            <a href="https://github.com/vojtechroyce/roycecode" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors" aria-label="GitHub">
               <GithubLogo aria-hidden="true" className="w-5 h-5" />
             </a>
             <a href="https://www.youtube.com/@roycecode" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors" aria-label="YouTube">

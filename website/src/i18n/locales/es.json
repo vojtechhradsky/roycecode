@@ -16,7 +16,7 @@
     "subtitle": "Análisis estático impulsado por IA que vigila todo tu código — código muerto, dependencias circulares y problemas de arquitectura.",
     "cta1": "Empezar",
     "cta2": "Ver en GitHub",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "Analiza código escrito en"

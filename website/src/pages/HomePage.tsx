@@ -81,7 +81,7 @@ function HeroSection() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash');
+      await navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash');
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -322,7 +322,7 @@ function HeroSection() {
             </a>
             <a
               ref={ctaButtonRightRef}
-              href="https://github.com/vojtechhradsky/roycecode"
+              href="https://github.com/vojtechroyce/roycecode"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-zinc-300 dark:border-white/10 text-zinc-700 dark:text-zinc-300 text-sm font-semibold hover:bg-zinc-100 dark:hover:bg-white/5 transition-colors"
@@ -1120,7 +1120,7 @@ function CtaSection() {
               aria-hidden="true"
             />
             <a
-              href="https://github.com/vojtechhradsky/roycecode"
+              href="https://github.com/vojtechroyce/roycecode"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold text-sm hover:scale-105 active:scale-[0.98] transition-transform shadow-xl overflow-hidden"

@@ -99,7 +99,7 @@
     "subtitle": "Análise estática com IA que monitora todo o seu codebase — código morto, dependências circulares e problemas de arquitetura.",
     "cta1": "Começar",
     "cta2": "Ver no GitHub",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "Analisa codebases escritos em"

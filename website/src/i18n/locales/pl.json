@@ -16,7 +16,7 @@
     "subtitle": "Analiza statyczna wspierana przez AI, ktora pilnuje calego Twojego kodu — martwy kod, cykliczne zaleznosci i problemy architektoniczne.",
     "cta1": "Rozpocznij",
     "cta2": "Zobacz na GitHubie",
-    "install": "cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode"
+    "install": "cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode"
   },
   "trustedBy": {
     "title": "Analizuje kod napisany w"

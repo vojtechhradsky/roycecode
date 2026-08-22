@@ -225,7 +225,7 @@ export default function DocsPage() {
       steps: [
         {
           name: 'Install RoyceCode',
-          text: 'Run cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode to install the native Rust CLI from GitHub.',
+          text: 'Run cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode to install the native Rust CLI from GitHub.',
           url: `${SITE_URL}/docs#quick-start`,
         },
         {
@@ -356,11 +356,11 @@ export default function DocsPage() {
               {t('docs.quickStart.installTitle', '1. Install RoyceCode')}
             </h3>
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-2 font-medium uppercase tracking-wider">{t('docs.quickStart.macLinux', 'macOS / Linux')}</p>
-            <CodeBlock code="curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash" />
+            <CodeBlock code="curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash" />
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-2 mt-4 font-medium uppercase tracking-wider">{t('docs.quickStart.windows', 'Windows (PowerShell)')}</p>
-            <CodeBlock code="irm https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.ps1 | iex" />
+            <CodeBlock code="irm https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.ps1 | iex" />
             <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-2 mt-4 font-medium uppercase tracking-wider">{t('docs.quickStart.pip', 'Or with cargo')}</p>
-            <CodeBlock code="cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode" />
+            <CodeBlock code="cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode" />
 
             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mt-4">
               {t(
@@ -789,7 +789,7 @@ roycecode analyze /path/to/project`}
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://github.com/vojtechhradsky/roycecode"
+                href="https://github.com/vojtechroyce/roycecode"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-black text-sm font-semibold hover:scale-105 active:scale-[0.98] transition-transform"
@@ -798,7 +798,7 @@ roycecode analyze /path/to/project`}
                 {t('docs.cta.github', 'View on GitHub')}
               </a>
               <a
-                href="https://github.com/vojtechhradsky/roycecode/blob/main/docs/PLUGIN_SYSTEM.md"
+                href="https://github.com/vojtechroyce/roycecode/blob/main/docs/PLUGIN_SYSTEM.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-zinc-700 text-zinc-300 text-sm font-semibold hover:bg-white/5 transition-colors"

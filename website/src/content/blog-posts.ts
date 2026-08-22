@@ -3375,7 +3375,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield is included in every RoyceCode run. No extra configuration needed:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -3502,7 +3502,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield je součástí každého spuštění RoyceCode. Není potřeba žádná další konfigurace:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -3629,7 +3629,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield est inclus dans chaque exécution d'RoyceCode. Aucune configuration supplémentaire nécessaire :</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -3756,7 +3756,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield está incluido en cada ejecución de RoyceCode. No se necesita configuración adicional:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -3883,7 +3883,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield 包含在每次 RoyceCode 运行中。无需额外配置：</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4010,7 +4010,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield हर RoyceCode रन में शामिल है। किसी अतिरिक्त कॉन्फ़िगरेशन की आवश्यकता नहीं:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4137,7 +4137,7 @@ guardian.native-vs-library
 
 <p>O Zeus Shield está incluído em toda execução do RoyceCode. Nenhuma configuração extra necessária:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4264,7 +4264,7 @@ guardian.native-vs-library
 
 <p>درع زيوس مضمّن في كل تشغيل لـ RoyceCode. لا حاجة لإعدادات إضافية:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4391,7 +4391,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield jest zawarty w każdym uruchomieniu RoyceCode. Nie jest wymagana dodatkowa konfiguracja:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4518,7 +4518,7 @@ guardian.native-vs-library
 
 <p>Zeus Shield প্রতিটি RoyceCode রানে অন্তর্ভুক্ত। কোনো অতিরিক্ত কনফিগারেশনের প্রয়োজন নেই:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -4621,7 +4621,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Single Binary Distribution</h3>
 <p>The entire RoyceCode analyzer compiles to a single binary. Cross-compilation for Linux, macOS, and Windows is handled by CI. Users install with one command:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>No Python runtime, no dependency management, no virtual environments.</p>
@@ -4706,7 +4706,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Distribuce jako jediná binárka</h3>
 <p>Celý analyzátor RoyceCode se zkompiluje do jediné binárky. Křížovou kompilaci pro Linux, macOS a Windows zajišťuje CI. Uživatelé instalují jedním příkazem:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>Žádný Python runtime, žádná správa závislostí, žádná virtuální prostředí.</p>
@@ -4791,7 +4791,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Distribution en binaire unique</h3>
 <p>L'analyseur RoyceCode complet se compile en un seul binaire. La compilation croisée pour Linux, macOS et Windows est gérée par la CI. Les utilisateurs installent avec une seule commande :</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>Pas de runtime Python, pas de gestion de dépendances, pas d'environnements virtuels.</p>
@@ -4876,7 +4876,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Distribución de binario único</h3>
 <p>Todo el analizador RoyceCode se compila en un solo binario. La compilación cruzada para Linux, macOS y Windows la gestiona el CI. Los usuarios instalan con un solo comando:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>Sin runtime de Python, sin gestión de dependencias, sin entornos virtuales.</p>
@@ -4961,7 +4961,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">单二进制分发</h3>
 <p>整个 RoyceCode 分析器编译为单个二进制文件。Linux、macOS 和 Windows 的交叉编译由 CI 处理。用户用一条命令安装：</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>无需 Python 运行时，无需依赖管理，无需虚拟环境。</p>
@@ -5046,7 +5046,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">सिंगल बाइनरी डिस्ट्रीब्यूशन</h3>
 <p>पूरा RoyceCode एनालाइज़र एक सिंगल बाइनरी में कंपाइल होता है। Linux, macOS और Windows के लिए क्रॉस-कंपाइलेशन CI द्वारा हैंडल किया जाता है। उपयोगकर्ता एक कमांड से इंस्टॉल करते हैं:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>कोई Python रनटाइम नहीं, कोई डिपेंडेंसी मैनेजमेंट नहीं, कोई वर्चुअल एनवायरनमेंट नहीं।</p>
@@ -5131,7 +5131,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Distribuição em Binário Único</h3>
 <p>Todo o analisador RoyceCode compila para um único binário. Cross-compilação para Linux, macOS e Windows é tratada pelo CI. Usuários instalam com um comando:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>Sem runtime Python, sem gerenciamento de dependências, sem ambientes virtuais.</p>
@@ -5216,7 +5216,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">توزيع ملف تنفيذي واحد</h3>
 <p>محلل RoyceCode بالكامل يُجمَّع إلى ملف تنفيذي واحد. الترجمة المتقاطعة لـ Linux وmacOS وWindows تُدار بواسطة CI. يثبّت المستخدمون بأمر واحد:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>لا بيئة تشغيل Python، لا إدارة تبعيات، لا بيئات افتراضية.</p>
@@ -5301,7 +5301,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">Dystrybucja pojedynczego pliku binarnego</h3>
 <p>Cały analizator RoyceCode kompiluje się do pojedynczego pliku binarnego. Kompilacja krzyżowa dla Linux, macOS i Windows jest obsługiwana przez CI. Użytkownicy instalują jednym poleceniem:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <p>Bez środowiska uruchomieniowego Pythona, bez zarządzania zależnościami, bez środowisk wirtualnych.</p>
@@ -5386,7 +5386,7 @@ roycecode analyze /path/to/your/project
 <h3 id="single-binary">সিঙ্গেল বাইনারি ডিস্ট্রিবিউশন</h3>
 <p>সম্পূর্ণ RoyceCode অ্যানালাইজার একটি একক বাইনারিতে কম্পাইল হয়।</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 </code></pre>
 
 <h2 id="the-numbers">সংখ্যাগুলো</h2>
@@ -5583,7 +5583,7 @@ roycecode analyze /path/to/your/project
 
 <p>All overengineering detectors are included in every RoyceCode run:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -5694,7 +5694,7 @@ roycecode analyze /path/to/your/project
 
 <p>Všechny detektory přeinženýrování jsou součástí každého spuštění RoyceCode:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -5805,7 +5805,7 @@ roycecode analyze /path/to/your/project
 
 <p>Tous les détecteurs de sur-ingénierie sont inclus dans chaque exécution d'RoyceCode :</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -5916,7 +5916,7 @@ roycecode analyze /path/to/your/project
 
 <p>Todos los detectores de sobreingeniería están incluidos en cada ejecución de RoyceCode:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6027,7 +6027,7 @@ roycecode analyze /path/to/your/project
 
 <p>所有过度工程检测器都包含在每次 RoyceCode 运行中：</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6138,7 +6138,7 @@ roycecode analyze /path/to/your/project
 
 <p>सभी ओवर-इंजीनियरिंग डिटेक्टर हर RoyceCode रन में शामिल हैं:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6249,7 +6249,7 @@ roycecode analyze /path/to/your/project
 
 <p>Todos os detectores de engenharia excessiva estão incluídos em toda execução do RoyceCode:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6317,7 +6317,7 @@ roycecode analyze /path/to/your/project
 
 <h2 id="try-it">جرّبه على قاعدة الكود الخاصة بك</h2>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6385,7 +6385,7 @@ roycecode analyze /path/to/your/project
 
 <h2 id="try-it">Wypróbuj na swojej bazie kodu</h2>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6451,7 +6451,7 @@ roycecode analyze /path/to/your/project
 
 <h2 id="try-it">আপনার কোডবেসে চেষ্টা করুন</h2>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6661,7 +6661,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode is open source and MIT-licensed. You can run it on your own codebase today:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6817,7 +6817,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode je open source a licencovaný pod MIT. Můžete ho spustit na vlastním codebase ještě dnes:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -6973,7 +6973,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode est open source et sous licence MIT. Vous pouvez l'exécuter sur votre propre codebase dès aujourd'hui :</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7129,7 +7129,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode es open source y tiene licencia MIT. Puedes ejecutarlo en tu propio codebase hoy:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7285,7 +7285,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode مفتوح المصدر ومرخص تحت MIT. يمكنك تشغيله على قاعدة الكود الخاصة بك اليوم:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7441,7 +7441,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode jest open source i na licencji MIT. Możesz uruchomić go na swojej bazie kodu już dziś:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7597,7 +7597,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode ওপেন সোর্স এবং MIT-লাইসেন্সড। আপনি আজই আপনার নিজের কোডবেসে এটি চালাতে পারেন:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7753,7 +7753,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode 是开源的，采用 MIT 许可证。你今天就可以在自己的代码库上运行它：</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -7909,7 +7909,7 @@ roycecode analyze /path/to/your/project
 
 <p>RoyceCode ओपन सोर्स और MIT-लाइसेंस प्राप्त है। आप आज ही इसे अपने कोडबेस पर चला सकते हैं:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 
@@ -8065,7 +8065,7 @@ roycecode analyze /path/to/your/project
 
 <p>O RoyceCode e open source e licenciado sob MIT. Voce pode executa-lo no seu proprio codebase hoje:</p>
 
-<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash
+<pre><code>curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash
 roycecode analyze /path/to/your/project
 </code></pre>
 

@@ -99,7 +99,7 @@
     "subtitle": "AI 驱动的静态分析工具，全面监控你的代码库——死代码、循环依赖和架构问题，一个都不放过。",
     "cta1": "快速开始",
     "cta2": "在 GitHub 上查看",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "支持分析以下语言编写的代码库"

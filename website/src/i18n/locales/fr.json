@@ -276,7 +276,7 @@
     "subtitle": "Analyse statique propulsée par l'IA qui surveille l'ensemble de votre codebase — code mort, dépendances circulaires et problèmes d'architecture.",
     "cta1": "Commencer",
     "cta2": "Voir sur GitHub",
-    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.sh | bash"
+    "install": "curl -fsSL https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.sh | bash"
   },
   "trustedBy": {
     "title": "Analyse du code écrit en"

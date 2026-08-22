@@ -1,10 +1,10 @@
 # RoyceCode Installer for Windows
-# Usage: irm https://raw.githubusercontent.com/vojtechhradsky/roycecode/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/vojtechroyce/roycecode/main/install.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
 $VERSION = if ($env:ROYCECODE_VERSION) { $env:ROYCECODE_VERSION } else { "0.1.0" }
-$REPO = "vojtechhradsky/roycecode"
+$REPO = "vojtechroyce/roycecode"
 $BIN_NAME = "roycecode"
 
 function Write-Info { param($msg) Write-Host "  > " -ForegroundColor Blue -NoNewline; Write-Host $msg }

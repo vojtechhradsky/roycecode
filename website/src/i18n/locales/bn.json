@@ -16,7 +16,7 @@
     "subtitle": "AI-চালিত স্ট্যাটিক অ্যানালিসিস যা আপনার সম্পূর্ণ কোডবেস পর্যবেক্ষণ করে — ডেড কোড, সার্কুলার ডিপেন্ডেন্সি এবং আর্কিটেকচারাল সমস্যা।",
     "cta1": "শুরু করুন",
     "cta2": "GitHub-এ দেখুন",
-    "install": "cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode"
+    "install": "cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode"
   },
   "trustedBy": {
     "title": "যে ভাষায় লেখা কোড বিশ্লেষণ করে"

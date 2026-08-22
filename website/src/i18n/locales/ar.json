@@ -16,7 +16,7 @@
     "subtitle": "تحليل ثابت مدعوم بالذكاء الاصطناعي يراقب قاعدة الكود بالكامل بحثاً عن الكود الميت والاعتماديات الدائرية والمشكلات المعمارية.",
     "cta1": "ابدأ الآن",
     "cta2": "عرض على GitHub",
-    "install": "cargo install --git https://github.com/vojtechhradsky/roycecode.git roycecode --bin roycecode"
+    "install": "cargo install --git https://github.com/vojtechroyce/roycecode.git roycecode --bin roycecode"
   },
   "trustedBy": {
     "title": "يحلل الكود المكتوب بـ"
