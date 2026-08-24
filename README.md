@@ -1,6 +1,5 @@
 # RoyceCode
 
-[![CI](https://github.com/vojtechroyce/roycecode/actions/workflows/ci.yml/badge.svg)](https://github.com/vojtechroyce/roycecode/actions/workflows/ci.yml)
 [![Rust](https://img.shields.io/badge/rust-1.82%2B-orange)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
